@@ -1,5 +1,6 @@
 import clase1.Animal;
 import clase1.Movie;
+import polimorfisomo.Carisellazo;
 import clase1.Ave;
 
 public class App {
@@ -21,6 +22,10 @@ public class App {
         condorito.setEnvergadura("trescientos centimetros");
 
         condorito.mostrarAve();
+        Carisellazo juego1=new Carisellazo();
+        juego1.iniciar();
+        juego1.jugar();
+        juego1.finalizar();
     }
 }
 

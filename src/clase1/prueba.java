@@ -15,8 +15,8 @@ public class prueba {
       laNocheDelDemonio.mostrarPelicula("la noche del demonio","terror",2010,110);
       laNocheDelDemonio.mostrarPelicula("terror",2010,"la noche del demonio",110);
  
-      // panda.mostrarAnimal();
-        /*System.out.println("Ingrese el nombre del animal");
+      panda.mostrarAnimal();
+      System.out.println("Ingrese el nombre del animal");
        String name=lectura.nextLine();
         System.out.println("Ingrese la edad del animal");
         int age=lectura.nextInt();
@@ -24,7 +24,7 @@ public class prueba {
         guacamaya.registrarAnimal(name, age);
         guacamaya.mostrarAnimal();
         int duplicado=guacamaya.duplicarEdad(age);
-        System.out.println("La edad duplicada del animal es: "+duplicado);*/
+        System.out.println("La edad duplicada del animal es: "+duplicado);
         }
     
     

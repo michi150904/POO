@@ -49,5 +49,6 @@ public int duplicarEdad(int edad){
     int duplicado=edad*2; 
     return (duplicado);
 }
+
 } 
 
