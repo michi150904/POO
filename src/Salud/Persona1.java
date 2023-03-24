@@ -1,6 +1,5 @@
 package Salud;
 import java.util.Scanner;
-import Salud.Empleado;
 public class Persona1 {
     private String tipoDoc,nombre,apellido,sexo;
     private int documento,edad;

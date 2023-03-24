@@ -19,6 +19,8 @@ public class Inicio1 {
         }
 
         pedir.mayorEdad();
+        lectura.close();
+
         }
     }
 

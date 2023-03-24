@@ -10,6 +10,7 @@ public class Inicio2 {
         pedir.pedirDatos();
         pedir.setHonorarios(pedir.calcularHonorarios());
         pedir.mostrarPersona();
+        lectura.close();
 
     
 

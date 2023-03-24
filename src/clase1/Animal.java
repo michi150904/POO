@@ -42,7 +42,7 @@ public class Animal {
 
     public void mostrarAnimal(){
         System.out.println("El nombre del animal es: "+name+
-        " y su edad es: "+age);
+        " y su edad es: "+age+" y el tipo es: "+tipo);
     }
 //metodo con retorno
 public int duplicarEdad(int edad){

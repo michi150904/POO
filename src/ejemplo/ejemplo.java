@@ -5,5 +5,7 @@ public class ejemplo {
     public static void main(String[] args) throws Exception {
     Animal panda=new Animal();
     Movie avengers=new Movie();
+    panda.setNombre("pancho");
+    avengers.setCategory("accion");
     }
 }

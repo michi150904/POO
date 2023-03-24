@@ -27,5 +27,6 @@ public class Execute {
             System.out.println("quiere volver a calcular, digite 1 para si y 2 para no");
             op=lectura.nextInt();
         }
+        lectura.close();
     }
 }

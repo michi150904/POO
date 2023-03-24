@@ -1,11 +1,9 @@
 package clase1;
 import java.util.Scanner;
-import clase1.Movie;
 public class prueba {
     public static void main(String[] args) throws Exception {
         Scanner lectura=new Scanner (System.in);
         Animal guacamaya=new Animal();
-        Movie titanic=new Movie();
         Animal panda=new Animal("bambu", 10);
         guacamaya.setNombre("pancho");
         System.out.println("el nombre es: "+guacamaya.getNombre()+" la edad es: "+guacamaya.getEdad());
@@ -25,7 +23,6 @@ public class prueba {
         guacamaya.mostrarAnimal();
         int duplicado=guacamaya.duplicarEdad(age);
         System.out.println("La edad duplicada del animal es: "+duplicado);
-        }
-    
-    
+            lectura.close();
+}
 }
